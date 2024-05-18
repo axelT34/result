@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="assets/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="img/photo_2024-05-17_14-09-43.jpg" alt="Фотография" class="profile-img" width="150px">
+            <h1>Петрович Александр</h1>
+            <p><em>Студент онлайн школы Result School</em></p>
+        </div>
+        <div class="content">
+            <section class="about">
+                <h2>Обо мне</h2>
+                <p><em>Начал постигать азы Front-end разработки</em></p>
+            </section>
+
+            <div class="social">
+                <h2>Список социальных сетей</h2>
+                <img class="icon" src="img/instagram.png" alt="Instagram" width="25px"> 
+                <a href="https://www.instagram.com/alexp_0013/" target="_blank">Instagram</a>
+                |
+                <img class="icon" src="img/Telegram_transparent_new.png" alt="Telegram" width="25px"> 
+                <a href="https://t.me/axel0131" target="_blank">Telegram</a>
+                |
+                <img class="icon" src="img/Facebook_transparent.png" alt="Facebook" width="25px"> 
+                <a href="https://www.facebook.com/saniok.petrovich" target="_blank">Facebook</a>
+            </div>
+
+            <section class="section">
+                <h2>Хобби</h2>
+                <ul>
+                    <li>Спорт</li>
+                    <li>Чтение</li>
+                    <li>Настольные игры</li>
+                </ul>
+            </section>
+
+            <section class="work">
+                <h2>Опыт работы</h2>
+               <table class="table">
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                    <tr>
+                        <td>Napoleon Palace Casino</td>
+                        <td>Croupier</td>
+                        <td>2016-2018</td>
+                    </tr>
+                    <tr>
+                        <td>Nicolae Testemiteanu Medical Univercity</td>
+                        <td>Technical enginer</td>
+                        <td>2018-2019</td>
+                    </tr>
+                    <tr>
+                        <td>Economical Academy</td>
+                        <td>Network & System administrator</td>
+                        <td>2019-2022</td>
+                    </tr>
+                    <tr>
+                        <td>Strategic Group</td>
+                        <td>Network & System administrator</td>
+                        <td>2022-today</td>
+                    </tr>
+               </table>
+            </section>
+
+            <section class="section">
+                <h2>Связаться со мной</h2>
+                <form action="submit_form.php" method="post" class="contact-form">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Отправить</button>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
